@@ -1,0 +1,169 @@
+body {
+	margin:0;
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+div.BackingLayer {
+	background-color: #d4d4d4; 
+	overflow: hidden
+}
+
+div.AboutBackingLayer {
+	background-color: #d4d4d4; 
+	overflow: hidden; 
+	position: absolute; 
+	height: 100%
+}
+
+div.MainPageMarginedLayer {
+	margin-left:50px; 
+	margin-top:5%; 
+ 	margin-right: 50px;
+}
+
+div.MarginedLayer {
+	margin-left:50px; 
+	margin-right: 50px;
+}
+
+div.Review {
+	padding: 10px; 
+	display: flex; 
+	flex-direction: column; 
+	float: left; 
+	width: 74%; 
+	background-color: white; 
+	margin-top: 4%; 
+	margin-bottom: 1%;
+}
+
+div.ReviewIntro {
+	padding: 20px; 
+	margin-bottom: 10px; 
+	display: flex; 
+	flex-direction: row 
+}
+
+div.ReviewIntroText {
+	padding: 10px; 
+	margin-left: 40px
+}
+
+div.ReviewBody {
+	display:flex; 
+	flex-direction: row
+}
+
+div.ReviewBodyLeft {
+	width: 100%; 
+	float: left;  
+	margin-right: 10px; 
+	padding: 10px
+}
+
+div.ReviewBodyRight {
+	width: 100%; 
+	margin-left: 10px; 
+	padding: 10px
+}
+
+div.ReviewDivider {
+	border-left: 1px solid black; 
+	border-right: 1px solid black; 
+	width: 5px
+}
+
+div.ReviewVideo {
+	width: 100%; 
+	display: flex; 
+	padding: 20px;
+}
+
+div.ReviewList {
+	float:left; 
+	width: 70%; 
+	background-color: white; 
+	padding: 30px
+}
+
+div.ReviewListItem {
+	cursor: pointer;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	box-sizing: inherit;
+	display: flex;
+}
+
+hr.ReviewListSeparator {
+	border: 0.5px solid black;
+	width:100%; 
+}
+
+div.ReviewListItemImage {
+	float: left
+}
+
+div.Footer {
+	color: #fff;
+	background-color: #666666;
+	padding: 0.01em 16px;
+}
+
+div.RightSidePanel {
+	margin-left: 74%; 
+	width: 20%; 
+	position: absolute; 
+	top:15%; 
+	height: 80%; 
+	background-color: white; 
+	padding: 5px
+}
+
+div.NavbarTop {
+	top: 0;
+}
+
+div.NavbarMain {
+	color: #fff;
+	background-color: #000000; 
+	text-align: left;
+	font-size: 18px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+a.NavbarButton {
+	border: none;
+	display: inline-block;
+	outline: 0;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap
+}
+
+a.NavbarButton:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+a.NavbarLogo {
+	color: #fff;
+	background-color: #333333;
+	-moz-user-select: none;
+}
+
+a.NavbarLogo:hover {
+	color:#000;
+	background-color:#ccc;
+	outline-width: 0;
+}
